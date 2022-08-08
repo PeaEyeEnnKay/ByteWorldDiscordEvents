@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "byteworlddiscordevents",
+  "version": "${version}",
+
+  "name": "Byte World Discord Events",
+  "description": "Sends player death messages to the discord hook.",
+  "authors": [
+    "Pink"
+  ],
+  "contact": {
+    "homepage": "https://minecraft.bluemods.co.uk:2255/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT License",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "server": [
+      "net.hackedbygod.byteworld.DiscordEventsMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  }
+}
