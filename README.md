@@ -1,6 +1,6 @@
 # ByteWorld Discord Events Mod
 
-This mod watches the Fabric Allow Death event and sends the player death message to a discord web hook.
+This Minecraft Fabric mod watches the Fabric Allow Death event and sends the player death message to a discord web hook.
 
 ## Building the source
 * Open the repository in Intellij
